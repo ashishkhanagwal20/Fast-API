@@ -1,5 +1,6 @@
 from logging.config import fileConfig
 
+# Use alembic revision --autogenerate -m "auto generate" to generate tables using sqlalchemy schema
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
