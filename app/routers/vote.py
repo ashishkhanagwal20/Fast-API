@@ -5,6 +5,7 @@ from .. import schemas, database, models, oauth2
 router = APIRouter(prefix="/vote", tags=["Vote"])
 
 
+# 10.53.00
 @router.post("/", status_code=status.HTTP_201_CREATED)
 def vote(
     vote: schemas.Vote,
