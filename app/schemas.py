@@ -9,6 +9,9 @@ from pydantic.types import conint
 # published: bool = True
 
 
+# schemas
+
+
 class PostBase(BaseModel):
     title: str
     content: str
